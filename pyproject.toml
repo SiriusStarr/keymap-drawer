@@ -34,6 +34,12 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
+name = "keymap-drawer"
+version = "0.20.0"
+description = "A module and CLI tool to help parse and draw keyboard layouts."
+authors = ["Cem Aksoylar"]
+readme = "README.md"
+license = "MIT"
 requires-poetry = ">=2.0"
 include = [{path = "resources", format = ["sdist", "wheel"]}]
 
